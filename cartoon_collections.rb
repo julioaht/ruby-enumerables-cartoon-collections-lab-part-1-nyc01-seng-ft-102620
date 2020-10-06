@@ -10,7 +10,6 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  binding.pry
   array.each_with_index do |array|
     puts "#{array}"
   end
